@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/container.css">
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="search-box">
+          <input
+            type="text"
+            placeholder="Enter your location"
+            class="input-box"
+          />
+          <button class="fa-solid fa-magnifying-glass" id="search-btn"></button>
+        </div>
+      </div>
+      <div class="location-not">
+        <h1>Sorry Location not found!!</h1>
+        <img src="./assets/404.png" alt="404 Error">
+      </div>
+      <div class="content-body">
+        <img src="./assets/cloud.png" alt="" id="weather_img">
+        <div class="weather-box">
+            <p class="temperature">0 &deg;C </p>
+            <p class="description">Light Rain</p>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-sharp fa-solid fa-droplet"></i>
+                <div class="text">
+                    <span id="humidity">45%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span id="wind">12Km/H</span>
+                    <p>wind Speed</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/b50f9a773f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

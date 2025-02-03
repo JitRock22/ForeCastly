@@ -1,0 +1,77 @@
+.content-body {
+  display:none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-body img {
+  height: 45%;
+  width: 45%;
+}
+.weather-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
+  font-size: 3rem;
+}
+.temperature {
+  font-weight: 800;
+  font-size: 4rem;
+}
+.description {
+  text-transform: capitalize;
+}
+.weather-details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid rgba(128, 128, 128, 0.384);
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 2rem;
+  font-size: 2rem;
+}
+.humidity i {
+  font-size: 4rem;
+}
+.humidity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.wind {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.wind i {
+  font-size: 4rem;
+}
+p {
+  font-weight: 600;
+}
+
+/* ****For Error img**** */
+.location-not {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 2rem;
+  display: none;
+}
+.location-not img{
+  height: 45%;
+  width: 45%;
+}
+.location-not h1{
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.541);
+}
