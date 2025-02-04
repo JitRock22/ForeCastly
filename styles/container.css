@@ -66,6 +66,7 @@ p {
   margin-top: 3rem;
   gap: 2rem;
   display: none;
+  transition: .2s ease-out;
 }
 .location-not img{
   height: 45%;
