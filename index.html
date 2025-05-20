@@ -3,59 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/wea.png">
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/container.css">
-    <title>ForeCastly</title>
+    <title>Weather Forecast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <div class="search-box">
-          <input
-            type="text"
-            placeholder="Enter your location"
-            class="input-box"
-          />
-          <button class="fa-solid fa-magnifying-glass" id="search-btn"></button>
-        </div>
-      </div>
-      <div class="location-not">
-        <h1>Sorry Location not found!!</h1>
-        <img src="./assets/404.png" alt="404 Error">
-      </div>
-      <div class="content-body">
-        <img src="./assets/cloud.png" alt="" id="weather_img">
-        <div class="weather-box">
-            <p class="temperature">0 &deg;C </p>
-            <p class="description">Light Rain</p>
-        </div>
-        <div class="weather-details">
-            <div class="humidity">
-                <i class="fa-sharp fa-solid fa-droplet"></i>
-                <div class="text">
-                    <span id="humidity">45%</span>
-                    <p>Humidity</p>
-                </div>
-            </div>
-            <div class="wind">
-                <i class="fa-solid fa-wind"></i>
-                <div class="text">
-                    <span id="wind">12Km/H</span>
-                    <p>wind Speed</p>
-                </div>
-            </div>
-        </div>
-      </div>
+  <body class="min-h-screen bg-cover bg-center flex items-center justify-center text-white" style="background-image: url('https://images.unsplash.com/photo-1604503590948-73bdc05edc76?q=80&w=1402&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+
+    <div class="bg-black bg-opacity-60 p-8 rounded-xl shadow-lg text-center text-white max-w-xl w-full">
+      <h1 class="text-5xl font-bold mb-4 drop-shadow-lg">Welcome to <span class="text-blue-500">ForeCastly</span></h1>
+      <p class="text-lg mb-6">
+        Get real-time weather updates for any city worldwide. Plan your day with accurate forecasts.
+      </p>
+      <a
+        href="weather.html"
+        class="inline-block bg-blue-500 text-gray-900 hover:bg-blue-800 font-semibold py-2 px-6 rounded-full hover:text-white shadow-md transition-all duration-300"
+      >
+        Go to Weather App
+      </a>
     </div>
-    <script
-      src="https://kit.fontawesome.com/b50f9a773f.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
+
   </body>
 </html>

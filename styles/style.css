@@ -73,3 +73,7 @@ body {
 .search-box button:hover {
   background-color: rgb(9, 138, 9);
 }
+
+#search-btn{
+  font-size: 3rem;
+}
